@@ -17,9 +17,9 @@ public class HalamanAdapter extends FragmentStatePagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-
+        Fragment fragment;
         switch (position){
-            Fragment fragment;
+
             case 0:
                 fragment=new SatuFragment();
                 return fragment;
@@ -30,7 +30,7 @@ public class HalamanAdapter extends FragmentStatePagerAdapter {
                 fragment = new SatuFragment();
             return fragment;
         }
-        return null;
+
     }
 
     @Override
