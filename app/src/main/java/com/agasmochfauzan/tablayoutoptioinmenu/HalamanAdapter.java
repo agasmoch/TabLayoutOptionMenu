@@ -40,6 +40,7 @@ public class HalamanAdapter extends FragmentStatePagerAdapter {
 
     @Nullable
     @Override
+    //Nama Tablayout
     public CharSequence getPageTitle(int position) {
 
         switch (position){
